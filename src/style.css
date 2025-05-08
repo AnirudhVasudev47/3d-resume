@@ -426,6 +426,25 @@ ul {
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
   transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+  border-top: 3px solid var(--secondary-color);
+}
+
+.skill-category::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.05) 0%, rgba(37, 99, 235, 0) 100%);
+  z-index: 0;
+}
+
+.skill-category > * {
+  position: relative;
+  z-index: 1;
 }
 
 .skill-category:hover {
@@ -468,6 +487,17 @@ ul {
   border: 1px solid var(--border-color);
   transition: var(--transition);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.skills-list li i {
+  color: var(--secondary-color);
+  font-size: 1rem;
+  min-width: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .skills-list li:hover {
@@ -475,6 +505,34 @@ ul {
   color: white;
   border-color: var(--secondary-color);
   transform: translateY(-2px);
+}
+
+.skills-list li:hover i {
+  color: white;
+  transform: scale(1.2) rotate(5deg);
+}
+
+.skill-category-title i {
+  margin-right: 8px;
+  color: var(--secondary-color);
+  transition: transform 0.3s ease;
+}
+
+.skill-category:hover .skill-category-title i {
+  transform: scale(1.2);
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* Projects Section */

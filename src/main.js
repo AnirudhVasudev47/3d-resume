@@ -127,7 +127,7 @@ function initScene() {
       textGroup.add(textMesh);
 
       // Create the subtitle text
-      const subtitleGeometry = new TextGeometry('CREATIVE DEVELOPER', {
+      const subtitleGeometry = new TextGeometry('Creative Developer', {
         font: font,
         size: 0.15,
         height: 0.05,
@@ -256,51 +256,66 @@ document.querySelector('#app').innerHTML = `
   <div class="resume-container">
     <header class="resume-header">
       <div class="profile-section">
-        <h1 class="name">John Doe</h1>
-        <h2 class="title">Creative Developer</h2>
+        <h1 class="name">Anirudh Vasudev</h1>
+        <h2 class="title">Full Stack Developer | React & Node.js | Backend Optimization</h2>
       </div>
       <div class="contact-section">
-        <p><i class="contact-icon">📧</i> john.doe@example.com</p>
-        <p><i class="contact-icon">📱</i> (123) 456-7890</p>
-        <p><i class="contact-icon">🔗</i> linkedin.com/in/johndoe</p>
-        <p><i class="contact-icon">🌐</i> github.com/johndoe</p>
-        <p><i class="contact-icon">📍</i> San Francisco, CA</p>
+        <p><i class="contact-icon">📧</i> anirudh040799@gmail.com</p>
+        <p><i class="contact-icon">📱</i> +49 176 86415467</p>
+        <p><i class="contact-icon">🔗</i> linkedin.com/in/anirudh-vasudev/</p>
+        <p><i class="contact-icon">🌐</i> github.com/AnirudhVasudev47</p>
+        <p><i class="contact-icon">🌍</i> anirudhvasudev.online/</p>
+        <p><i class="contact-icon">📍</i> Berlin</p>
       </div>
     </header>
 
     <section class="resume-section">
-      <h2 class="section-title">About Me</h2>
+      <h2 class="section-title">Summary</h2>
       <p class="summary-text">
-        Creative developer with a passion for building immersive web experiences using 3D graphics and modern web technologies.
-        Skilled in Three.js, WebGL, JavaScript, React, and Node.js. I combine technical expertise with creative vision
-        to create engaging digital experiences that push the boundaries of what's possible on the web.
+        A software development professional with over 4 years of experience in full stack development and backend optimization, expert in React and Node.js. Key achievements include leading the development of a payment module that contributed to generating ₹60 crore in revenue, and improving project alignment by ensuring 100% requirement accuracy at Deloitte.
       </p>
     </section>
 
     <section class="resume-section">
-      <h2 class="section-title">Featured Projects</h2>
+      <h2 class="section-title">Projects</h2>
 
       <div class="project-item">
-        <h3 class="project-title">Interactive 3D Product Configurator</h3>
+        <h3 class="project-title">anirudh-portfolio</h3>
         <p class="project-description">
-          Developed a WebGL-based 3D product configurator that allows users to customize products in real-time.
-          Implemented features like material changes, color selection, and realistic lighting using Three.js and GLSL shaders.
+          <a href="https://anirudhvasudev.online/" target="_blank">https://anirudhvasudev.online/</a>
+          <br>Updated portfolio with new profile image and content modifications.
         </p>
       </div>
 
       <div class="project-item">
-        <h3 class="project-title">Immersive Data Visualization</h3>
+        <h3 class="project-title">hookha-island</h3>
         <p class="project-description">
-          Created a 3D data visualization platform that transforms complex datasets into interactive, explorable 3D environments.
-          Used Three.js for rendering and D3.js for data processing, with custom shaders for visual effects.
+          <a href="https://hookha-island.vercel.app/" target="_blank">https://hookha-island.vercel.app/</a>
+          <br>Built a booking web application for a hookah lounge. Recently updated to remove the "reserve table" option.
         </p>
       </div>
 
       <div class="project-item">
-        <h3 class="project-title">WebXR Virtual Gallery</h3>
+        <h3 class="project-title">3d-resume</h3>
         <p class="project-description">
-          Built a virtual art gallery experience with WebXR support, allowing users to explore artwork in VR/AR.
-          Implemented optimized 3D models, dynamic lighting, and interactive elements using Three.js and the WebXR API.
+          <a href="https://3d-resume-nine.vercel.app/" target="_blank">https://3d-resume-nine.vercel.app/</a>
+          <br>Interactive 3D resume showcasing experience and skills with Three.js and React Three Fiber.
+        </p>
+      </div>
+
+      <div class="project-item">
+        <h3 class="project-title">aapka-restaurant-sample</h3>
+        <p class="project-description">
+          <a href="https://aapka-restaurant-sample.vercel.app/" target="_blank">https://aapka-restaurant-sample.vercel.app/</a>
+          <br>Sample restaurant app demonstrating online ordering UI. Updated README recently.
+        </p>
+      </div>
+
+      <div class="project-item">
+        <h3 class="project-title">sample-restraunt</h3>
+        <p class="project-description">
+          <a href="https://sample-restraunt.vercel.app/" target="_blank">https://sample-restraunt.vercel.app/</a>
+          <br>A demo restaurant navigation and menu project with recent nav fixes.
         </p>
       </div>
     </section>
@@ -310,35 +325,54 @@ document.querySelector('#app').innerHTML = `
 
       <div class="skills-container">
         <div class="skill-category">
-          <h3 class="skill-category-title">3D & Graphics</h3>
+          <h3 class="skill-category-title"><i class="fas fa-laptop-code"></i> Front-end</h3>
           <ul class="skills-list">
-            <li>Three.js</li>
-            <li>WebGL</li>
-            <li>GLSL Shaders</li>
-            <li>Blender</li>
-            <li>WebXR</li>
+            <li><i class="fab fa-react"></i> ReactJS</li>
+            <li><i class="fab fa-react"></i> React Native</li>
+            <li><i class="fab fa-html5"></i> HTML</li>
+            <li><i class="fab fa-js"></i> Typescript</li>
+            <li><i class="fab fa-js"></i> Javascript</li>
+            <li><i class="fab fa-css3-alt"></i> CSS</li>
+            <li><i class="fab fa-css3"></i> Tailwind</li>
+            <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+            <li><i class="fas fa-exchange-alt"></i> RESTful APIs</li>
+            <li><i class="fab fa-git-alt"></i> Git</li>
+            <li><i class="fab fa-github"></i> Github</li>
+            <li><i class="fas fa-project-diagram"></i> Redux</li>
+            <li><i class="fas fa-spa"></i> SPA</li>
           </ul>
         </div>
 
         <div class="skill-category">
-          <h3 class="skill-category-title">Web Development</h3>
+          <h3 class="skill-category-title"><i class="fas fa-server"></i> Back-end</h3>
           <ul class="skills-list">
-            <li>JavaScript (ES6+)</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>TypeScript</li>
-            <li>CSS/SCSS</li>
+            <li><i class="fab fa-node-js"></i> Express</li>
+            <li><i class="fab fa-js"></i> Typescript</li>
+            <li><i class="fab fa-js"></i> Javascript</li>
+            <li><i class="fas fa-database"></i> MySQL</li>
+            <li><i class="fab fa-aws"></i> AWS (Amazon Web Services)</li>
+            <li><i class="fas fa-database"></i> NoSQL</li>
+            <li><i class="fas fa-fire"></i> Firebase</li>
+            <li><i class="fas fa-cubes"></i> Microservices</li>
+            <li><i class="fas fa-cloud"></i> Serverless</li>
+            <li><i class="fab fa-laravel"></i> Laravel</li>
+            <li><i class="fas fa-database"></i> PostgresSQL</li>
+            <li><i class="fab fa-git-alt"></i> Git Version Control</li>
           </ul>
         </div>
 
         <div class="skill-category">
-          <h3 class="skill-category-title">Tools & Technologies</h3>
+          <h3 class="skill-category-title"><i class="fas fa-paint-brush"></i> UI/UX</h3>
           <ul class="skills-list">
-            <li>Git</li>
-            <li>Webpack</li>
-            <li>Vite</li>
-            <li>Figma</li>
-            <li>AWS</li>
+            <li><i class="fab fa-figma"></i> Figma</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-category-title"><i class="fas fa-language"></i> Languages</h3>
+          <ul class="skills-list">
+            <li><i class="fas fa-flag-usa"></i> English – Native</li>
+            <li><i class="fas fa-flag"></i> German – Beginner</li>
           </ul>
         </div>
       </div>
@@ -349,29 +383,51 @@ document.querySelector('#app').innerHTML = `
 
       <div class="experience-item">
         <div class="job-header">
-          <h3 class="job-title">Creative Developer</h3>
-          <p class="company">Interactive Studio Inc.</p>
-          <p class="job-period">January 2020 - Present</p>
+          <h3 class="job-title">Consultant</h3>
+          <p class="company">Deloitte, Bengaluru, Karnataka, India</p>
+          <p class="job-period">Nov 2023 – Jul 2024</p>
         </div>
         <ul class="job-description">
-          <li>Develop immersive 3D web experiences for clients in retail, education, and entertainment</li>
-          <li>Create optimized 3D models and implement WebGL rendering pipelines</li>
-          <li>Collaborate with designers and 3D artists to bring creative concepts to life</li>
-          <li>Lead technical implementation of interactive installations and web-based AR experiences</li>
+          <li>Titan Project – Improved project alignment with client goals by ensuring 100% requirement accuracy during the discovery phase.</li>
+          <li>VGuard Project – Designed and implemented core modules, APIs, including a real-time notification engine, attendance tracking system, and expense management feature, improving user experience and operational efficiency.</li>
         </ul>
       </div>
 
       <div class="experience-item">
         <div class="job-header">
-          <h3 class="job-title">Frontend Developer</h3>
-          <p class="company">Digital Experiences LLC</p>
-          <p class="job-period">June 2017 - December 2019</p>
+          <h3 class="job-title">Full Stack Developer</h3>
+          <p class="company">BHIVE Alts, Bengaluru, Karnataka, India</p>
+          <p class="job-period">Jun 2022 – Nov 2023</p>
         </div>
         <ul class="job-description">
-          <li>Built responsive web applications with React and modern JavaScript</li>
-          <li>Implemented interactive data visualizations using D3.js and SVG</li>
-          <li>Developed WebGL-based animations and visual effects</li>
-          <li>Optimized web performance for complex interactive applications</li>
+          <li>Developed BHIVE Alts App – Solely built and launched an investor-focused app, driving user engagement and supporting company growth.</li>
+          <li>Project Lead for Payment Module – Led development of a payment module, contributing to combined revenue generation of ₹60 crore.</li>
+          <li>Tech Stack Optimization – Introduced improvements to the tech stack, enhancing app performance and reliability.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="job-header">
+          <h3 class="job-title">Software Engineer</h3>
+          <p class="company">Webbirth, Bangalore Urban, Karnataka, India</p>
+          <p class="job-period">Sep 2021 – Jun 2022</p>
+        </div>
+        <ul class="job-description">
+          <li>Built mobile applications for six projects using React Native and Flutter.</li>
+          <li>Enhanced solution reliability by 25% through leading backend development with Node.js and Laravel.</li>
+          <li>Worked across multiple technologies to meet varied client requirements in a dynamic startup environment.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="job-header">
+          <h3 class="job-title">Full Stack Developer</h3>
+          <p class="company">Civil Engineering System, Bangalore Urban, Karnataka, India</p>
+          <p class="job-period">Jun 2020 – Jul 2021</p>
+        </div>
+        <ul class="job-description">
+          <li>Supported development and testing of in-house applications, focusing on PHP-based backend services and frontend development with React and theming using Bootstrap.</li>
+          <li>Contributed to UI/UX design to improve the customer-facing platform.</li>
         </ul>
       </div>
     </section>
@@ -380,110 +436,18 @@ document.querySelector('#app').innerHTML = `
       <h2 class="section-title">Education</h2>
 
       <div class="education-item">
-        <h3 class="degree">Master of Fine Arts in Digital Media</h3>
-        <p class="university">Rhode Island School of Design</p>
-        <p class="education-period">2015 - 2017</p>
+        <h3 class="degree">Master's Degree, Data Science</h3>
+        <p class="university">IU International University of Applied Sciences</p>
+        <p class="education-period">Oct 2024 – Oct 2025</p>
       </div>
 
       <div class="education-item">
-        <h3 class="degree">Bachelor of Science in Computer Science</h3>
-        <p class="university">University of California, Berkeley</p>
-        <p class="education-period">2011 - 2015</p>
+        <h3 class="degree">Bachelor of Technology - BTech, Computer Science</h3>
+        <p class="university">Presidency University, Bangalore</p>
+        <p class="education-period">Jan 2017 – Dec 2021</p>
       </div>
     </section>
 
-    <section class="resume-section">
-      <h2 class="section-title">Testimonials</h2>
-
-      <div class="testimonials-container">
-        <div class="testimonial-item">
-          <p class="testimonial-text">
-            "John created an incredible 3D experience for our product showcase that increased user engagement by 40%. His technical skills and creative vision exceeded our expectations."
-          </p>
-          <div class="testimonial-author">
-            <p class="author-name">Sarah Johnson</p>
-            <p class="author-title">Marketing Director, TechBrand Inc.</p>
-          </div>
-        </div>
-
-        <div class="testimonial-item">
-          <p class="testimonial-text">
-            "Working with John was a pleasure. He transformed our complex data into an intuitive and beautiful 3D visualization that helped our clients understand our research findings with ease."
-          </p>
-          <div class="testimonial-author">
-            <p class="author-name">Michael Chen</p>
-            <p class="author-title">Lead Researcher, Data Insights Lab</p>
-          </div>
-        </div>
-
-        <div class="testimonial-item">
-          <p class="testimonial-text">
-            "John's expertise in WebXR and 3D web development helped us create an immersive virtual showroom that revolutionized how we present our products during the pandemic."
-          </p>
-          <div class="testimonial-author">
-            <p class="author-name">Emily Rodriguez</p>
-            <p class="author-title">CEO, Modern Furnishings</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="resume-section">
-      <h2 class="section-title">Awards & Recognition</h2>
-
-      <div class="awards-container">
-        <div class="award-item">
-          <h3 class="award-title">Awwwards Site of the Day</h3>
-          <p class="award-description">Recognized for excellence in digital design and creativity for the Interactive Museum project.</p>
-          <p class="award-date">2022</p>
-        </div>
-
-        <div class="award-item">
-          <h3 class="award-title">FWA of the Month</h3>
-          <p class="award-description">Awarded for innovation in WebGL and 3D web experiences for the Virtual Fashion Show project.</p>
-          <p class="award-date">2021</p>
-        </div>
-
-        <div class="award-item">
-          <h3 class="award-title">CSS Design Awards - Best UI Design</h3>
-          <p class="award-description">Honored for outstanding user interface design in the Immersive Data Visualization project.</p>
-          <p class="award-date">2020</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="resume-section">
-      <h2 class="section-title">Blog & Articles</h2>
-
-      <div class="blog-container">
-        <div class="blog-item">
-          <h3 class="blog-title">Creating Performant 3D Web Experiences</h3>
-          <p class="blog-excerpt">
-            Exploring optimization techniques for Three.js applications to ensure smooth performance across devices.
-          </p>
-          <p class="blog-meta">Published in CSS-Tricks • June 2022</p>
-          <a href="#" class="blog-link">Read Article →</a>
-        </div>
-
-        <div class="blog-item">
-          <h3 class="blog-title">The Future of WebXR: Beyond Gaming</h3>
-          <p class="blog-excerpt">
-            How WebXR is transforming industries from education to healthcare through immersive experiences.
-          </p>
-          <p class="blog-meta">Published in Smashing Magazine • March 2022</p>
-          <a href="#" class="blog-link">Read Article →</a>
-        </div>
-
-        <div class="blog-item">
-          <h3 class="blog-title">GLSL Shaders for Web Developers</h3>
-          <p class="blog-excerpt">
-            A beginner-friendly introduction to writing GLSL shaders for creative web projects.
-          </p>
-          <p class="blog-meta">Self-published • November 2021</p>
-          <a href="#" class="blog-link">Read Article →</a>
-        </div>
-      </div>
-    </section>
 
     <section class="resume-section">
       <h2 class="section-title">Contact Me</h2>
@@ -495,26 +459,24 @@ document.querySelector('#app').innerHTML = `
           <div class="contact-methods">
             <div class="contact-method">
               <h3>Email</h3>
-              <p><a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
+              <p><a href="mailto:anirudh040799@gmail.com">anirudh040799@gmail.com</a></p>
             </div>
 
             <div class="contact-method">
               <h3>Phone</h3>
-              <p>(123) 456-7890</p>
+              <p>+49 176 86415467</p>
             </div>
 
             <div class="contact-method">
               <h3>Location</h3>
-              <p>San Francisco, CA</p>
+              <p>Berlin</p>
             </div>
           </div>
 
           <div class="social-links">
-            <a href="#" class="social-link">LinkedIn</a>
-            <a href="#" class="social-link">GitHub</a>
-            <a href="#" class="social-link">Twitter</a>
-            <a href="#" class="social-link">Dribbble</a>
-            <a href="#" class="social-link">Medium</a>
+            <a href="https://www.linkedin.com/in/anirudh-vasudev/" target="_blank" class="social-link">LinkedIn</a>
+            <a href="https://github.com/AnirudhVasudev47" target="_blank" class="social-link">GitHub</a>
+            <a href="https://anirudhvasudev.online/" target="_blank" class="social-link">Portfolio</a>
           </div>
         </div>
       </div>
